@@ -36,7 +36,17 @@ Write-up for Swimming Lessons challenge
   
   ![swimming-4b](https://user-images.githubusercontent.com/86580417/166806456-307b86b2-49bd-4cf8-8d65-2771aeb8b403.png)
 ---
-## 5. Which operating system did Kim use during the event? 
+## 5. Which operating system did Heiner use during the event? **Windows**
+
+  a. One method of etermining the operating system could be by checking the user-agent string advertised by the browser. 
+  
+  ![swimming-5](https://user-images.githubusercontent.com/86580417/169933102-9fdf80b6-19ab-4ce2-8317-8ecbd99a9884.png)
+  
+  ![swimming-5b](https://user-images.githubusercontent.com/86580417/169933129-416d3fb7-56b1-4ec1-bfec-fc2d38a70a08.png)
+  
+  b. Alternatively, we could observe the TTL advertised in the IP Header of packets sent by the machine. The advertised TTL of 128 is typically indicative of a Windows OS. 
+  
+  ![swimming-5c](https://user-images.githubusercontent.com/86580417/169933259-2a854746-2c55-4e18-a79c-74fa7624248b.png)
 
 
 
